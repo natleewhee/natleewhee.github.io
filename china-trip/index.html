@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>China Trip 2026</title>
 <meta name="robots" content="noindex, nofollow">
-<style>*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}:root{--bg:#F2F1ED;--card:#FFF;--bdr:#E5E2DA;--txt:#111;--sub:#888;--grn:#0B6E4F;--red:#B83232;--blu:#1A5FB4;--amb:#7A5800}html,body{height:100%;width:100%;overflow:hidden;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif;color:var(--txt);font-size:16px;line-height:1.4}#app{position:fixed;inset:0;display:flex;flex-direction:column;background:var(--bg)}.nav{order:2;height:calc(64px + env(safe-area-inset-bottom,0px));padding-bottom:env(safe-area-inset-bottom,0px);background:#fff;border-top:0.5px solid var(--bdr);display:flex;flex-shrink:0;z-index:100}.nb{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:none;border:none;cursor:pointer;padding:8px 0;user-select:none}.nb-ico{font-size:22px;line-height:1}.nb-lbl{font-size:11px;color:#aaa;font-weight:500}.nb.active .nb-lbl{color:var(--blu);font-weight:700}.content{order:1;flex:1;overflow:hidden;position:relative}.tab{position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;display:none}.tab.on{display:block}.tbar{position:sticky;top:0;z-index:50;background:rgba(242,241,237,.94);backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-bottom:0.5px solid var(--bdr);padding:16px 18px 12px}.tbar-title{font-size:22px;font-weight:700;letter-spacing:-.4px}.tbar-sub{font-size:13px;color:var(--sub);margin-top:3px}.alert{margin:14px 14px 0;background:#FEFCE8;border:1px solid #ECD364;border-radius:14px;padding:13px 15px;font-size:13px;color:var(--amb);line-height:1.55}.cap-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px 14px 0}.cap-card{background:var(--card);border-radius:16px;padding:14px 14px 12px;box-shadow:0 1px 3px rgba(0,0,0,.06)}.cap-lbl{font-size:12px;color:var(--sub);font-weight:500;margin-bottom:8px;display:flex;align-items:center;gap:6px}.cap-badge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px}.aug{background:#DBEAFE;color:#1D4ED8}.sep{background:#D1FAE5;color:#065F46}.cap-amt{font-size:24px;font-weight:700;letter-spacing:-.5px;margin-bottom:2px}.cap-total{font-size:12px;color:var(--sub)}.cap-bar{height:5px;background:#F0EDE8;border-radius:3px;margin:8px 0 6px;overflow:hidden}.cap-fill{height:100%;border-radius:3px;transition:width .4s cubic-bezier(.4,0,.2,1)}.cap-rem{font-size:11px;color:var(--sub)}.c-grn{color:var(--grn)}.c-org{color:#D97706}.c-red{color:var(--red)}.sec{margin:20px 14px 0}.sec-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}.sec-ico{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}.sec-title{font-size:17px;font-weight:700;letter-spacing:-.2px}.sec-sub{font-size:12px;color:var(--sub);margin-top:1px}.crow{background:var(--card);border-radius:16px;padding:14px 15px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.06)}.crow-dis{opacity:.45;background:#F9F8F5;box-shadow:none;border:1px dashed var(--bdr)}.crow-top{display:flex;align-items:center;gap:12px}.rank{width:28px;height:28px;border-radius:50%;background:#EDEBE6;color:#aaa;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}.rank-on{background:#111;color:#fff}.cmeta{flex:1;min-width:0}.cname{font-size:15px;font-weight:600;display:flex;align-items:center;gap:6px;flex-wrap:wrap}.cnote{font-size:12px;color:var(--sub);margin-top:3px;line-height:1.4}.cstats{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0}.cmpd{font-size:15px;font-weight:700;color:#aaa}.cmpd-g{color:var(--grn)}.ccost{font-size:11px;color:var(--sub)}.rtag{background:#DBEAFE;color:#1D4ED8;font-size:10px;font-weight:700;padding:2px 6px;border-radius:99px}.xtag{background:#FEE2E2;color:var(--red);font-size:10px;font-weight:700;padding:2px 6px;border-radius:99px}.log-toggle{margin-top:12px;font-size:14px;color:var(--blu);background:none;border:none;cursor:pointer;font-weight:600;padding:2px 0}.log-form{display:none;margin-top:10px;background:#F7F6F2;border-radius:12px;padding:12px;flex-direction:column;gap:8px}.log-form.on{display:flex}.log-form input{border:1px solid var(--bdr);border-radius:10px;padding:12px 14px;font-size:16px;width:100%;background:#fff;color:var(--txt);outline:none}.log-btns{display:flex;gap:8px}.log-btns button{flex:1;padding:12px;border-radius:10px;border:none;font-size:15px;font-weight:600;cursor:pointer}.log-save{background:#111;color:#fff}.log-btns button:not(.log-save){background:#EDEBE6;color:var(--txt)}.txn-list{margin-top:6px;display:flex;flex-direction:column;gap:4px}.txn-item{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--sub);background:#F7F6F2;padding:9px 12px;border-radius:10px}.txn-del{background:none;border:none;color:#ccc;font-size:20px;cursor:pointer;padding:0 2px;line-height:1}.sum-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px 14px 0}.sum-card{background:var(--card);border-radius:16px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06)}.sum-lbl{font-size:12px;color:var(--sub);font-weight:500;margin-bottom:6px}.sum-val{font-size:26px;font-weight:700;letter-spacing:-.5px}.sum-sub{font-size:12px;color:var(--sub);margin-top:3px}.sum-val.g{color:var(--grn)}.sum-val.r{color:var(--red)}.txn-sec{padding:20px 14px 0}.txn-sec-title{font-size:17px;font-weight:700;margin-bottom:12px}.all-txn{background:var(--card);border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06)}.txn-row{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:0.5px solid var(--bdr)}.txn-row:last-child{border-bottom:none}.txn-name{font-size:14px;font-weight:500}.txn-meta{font-size:12px;color:var(--sub);margin-top:2px}.reset-btn{display:flex;align-items:center;justify-content:center;margin:14px 14px 0;padding:15px;background:var(--card);border:1px solid #FFD0D0;border-radius:16px;font-size:15px;color:var(--red);font-weight:600;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.06);width:calc(100% - 28px)}.itin-top{position:sticky;top:0;z-index:50;background:rgba(242,241,237,.94);backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-bottom:0.5px solid var(--bdr)}.itin-hdr{padding:16px 18px 4px;display:flex;align-items:baseline;gap:8px}.itin-title{font-size:22px;font-weight:700;letter-spacing:-.4px}.itin-sub{font-size:12px;color:var(--sub)}.day-tabs{display:flex;gap:6px;overflow-x:auto;padding:10px 14px 12px;scrollbar-width:none}.day-tabs::-webkit-scrollbar{display:none}.day-tab{flex-shrink:0;padding:8px 12px;border-radius:12px;border:1.5px solid var(--bdr);background:var(--card);font-size:12px;font-weight:600;cursor:pointer;text-align:center;line-height:1.3;color:var(--txt);min-width:48px}.day-tab.on{background:#111;color:#fff;border-color:#111}.dtag{font-size:10px;opacity:.6;font-weight:400;display:block}.day-panels{padding:14px 14px 80px}.day-panel{display:none}.day-panel.on{display:block}.slot-label{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--sub);text-transform:uppercase;margin:18px 0 8px 2px}.slot-label:first-child{margin-top:2px}.stop{background:var(--card);border-radius:16px;padding:13px 14px;margin-bottom:8px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.06)}.stop.on{box-shadow:0 2px 8px rgba(0,0,0,.10);border:1px solid #CCC8C0}.stop-row{display:flex;align-items:center;gap:10px}.sico{font-size:22px;flex-shrink:0;width:28px;text-align:center}.sinfo{flex:1;min-width:0}.sname{font-size:14px;font-weight:600}.scn{font-size:11px;color:var(--sub);margin-top:2px;line-height:1.3}.sright{display:flex;align-items:center;gap:5px;flex-shrink:0;margin-left:4px}.stime{font-size:11px;color:var(--sub);font-weight:500;white-space:nowrap}.mapbtn{font-size:19px;text-decoration:none;width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:9px;background:#F2F1ED;flex-shrink:0;border:none}.mapbtn:active{background:#E5E2DA}.copybtn{font-size:12px;font-weight:700;color:var(--blu);width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:9px;background:#EEF4FF;border:none;cursor:pointer;flex-shrink:0}.copybtn:active{background:#DBEAFE}.sdesc{display:none;margin-top:10px;padding-top:10px;border-top:0.5px solid var(--bdr);font-size:13px;color:var(--sub);line-height:1.7}.stop.on .sdesc{display:block}.card-tip{font-size:13px;font-weight:600;color:var(--grn);display:inline-block;margin-top:4px}.walk-hl{font-size:13px;color:var(--sub);line-height:1.8}.walk-hl b{color:var(--txt);font-weight:600}.travel{font-size:13px;color:var(--sub);padding:2px 4px 8px;line-height:1.4}.book-badge{background:#D1FAE5;color:#065F46;font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px;margin-right:4px}.price-badge{background:#F3F4F6;color:#374151;font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px}.toast{position:fixed;bottom:calc(64px + env(safe-area-inset-bottom,0px) + 16px);left:50%;transform:translateX(-50%);background:#111;color:#fff;font-size:14px;font-weight:500;padding:10px 20px;border-radius:99px;z-index:9998;opacity:0;transition:opacity .2s;pointer-events:none;white-space:nowrap}.toast.show{opacity:1}.pb{padding-bottom:20px}</style>
+<style>*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}:root{--bg:#F2F1ED;--card:#FFF;--bdr:#E5E2DA;--txt:#111;--sub:#6B6B6B;--grn:#0B6E4F;--red:#B83232;--blu:#1A5FB4;--amb:#7A5800}html,body{height:100%;width:100%;overflow:hidden;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';color:var(--txt);font-size:16px;line-height:1.5}#app{position:fixed;inset:0;display:flex;flex-direction:column;background:var(--bg)}.nav{order:2;height:calc(64px + env(safe-area-inset-bottom,0px));padding-bottom:env(safe-area-inset-bottom,0px);background:#fff;border-top:0.5px solid var(--bdr);display:flex;flex-shrink:0;z-index:100}.nb{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:none;border:none;cursor:pointer;padding:8px 0;user-select:none}.nb-ico{font-size:22px;line-height:1}.nb-lbl{font-size:11px;color:#6B6B6B;font-weight:500}.nb.active .nb-lbl{color:var(--blu);font-weight:700}.content{order:1;flex:1;overflow:hidden;position:relative}.tab{position:absolute;inset:0;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;display:none}.tab.on{display:block}.tbar{position:sticky;top:0;z-index:50;background:rgba(242,241,237,.94);backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-bottom:0.5px solid var(--bdr);padding:16px 18px 12px}.tbar-title{font-size:22px;font-weight:700;letter-spacing:-.4px}.tbar-sub{font-size:13px;color:var(--sub);margin-top:3px}.alert{margin:14px 14px 0;background:#FEFCE8;border:1px solid #ECD364;border-radius:14px;padding:13px 15px;font-size:13px;color:var(--amb);line-height:1.55}.cap-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px 14px 0}.cap-card{background:var(--card);border-radius:16px;padding:14px 14px 12px;box-shadow:0 1px 3px rgba(0,0,0,.06)}.cap-lbl{font-size:12px;color:var(--sub);font-weight:500;margin-bottom:8px;display:flex;align-items:center;gap:6px}.cap-badge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px}.aug{background:#DBEAFE;color:#1D4ED8}.sep{background:#D1FAE5;color:#065F46}.cap-amt{font-size:24px;font-weight:700;letter-spacing:-.5px;margin-bottom:2px}.cap-total{font-size:12px;color:var(--sub)}.cap-bar{height:5px;background:#F0EDE8;border-radius:3px;margin:8px 0 6px;overflow:hidden}.cap-fill{height:100%;border-radius:3px;transition:width .4s cubic-bezier(.4,0,.2,1)}.cap-rem{font-size:11px;color:var(--sub)}.c-grn{color:var(--grn)}.c-org{color:#B45309}.c-red{color:var(--red)}.sec{margin:20px 14px 0}.sec-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}.sec-ico{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}.sec-title{font-size:17px;font-weight:700;letter-spacing:-.2px}.sec-sub{font-size:12px;color:var(--sub);margin-top:1px}.crow{background:var(--card);border-radius:16px;padding:14px 15px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.06)}.crow-dis{opacity:.45;background:#F9F8F5;box-shadow:none;border:1px dashed var(--bdr)}.crow-top{display:flex;align-items:center;gap:12px}.rank{width:28px;height:28px;border-radius:50%;background:#EDEBE6;color:#5F5F5F;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}.rank-on{background:#111;color:#fff}.cmeta{flex:1;min-width:0}.cname{font-size:15px;font-weight:600;display:flex;align-items:center;gap:6px;flex-wrap:wrap}.cnote{font-size:12px;color:var(--sub);margin-top:3px;line-height:1.4}.cstats{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0}.cmpd{font-size:15px;font-weight:700;color:#6B6B6B}.cmpd-g{color:var(--grn)}.ccost{font-size:11px;color:var(--sub)}.rtag{background:#DBEAFE;color:#1D4ED8;font-size:10px;font-weight:700;padding:2px 6px;border-radius:99px}.xtag{background:#FEE2E2;color:var(--red);font-size:10px;font-weight:700;padding:2px 6px;border-radius:99px}.log-toggle{margin-top:12px;font-size:14px;color:var(--blu);background:none;border:none;cursor:pointer;font-weight:600;padding:2px 0}.log-form{display:none;margin-top:10px;background:#F7F6F2;border-radius:12px;padding:12px;flex-direction:column;gap:8px}.log-form.on{display:flex}.log-form input{border:1px solid var(--bdr);border-radius:10px;padding:12px 14px;font-size:16px;width:100%;background:#fff;color:var(--txt);outline:none}.log-btns{display:flex;gap:8px}.log-btns button{flex:1;padding:12px;border-radius:10px;border:none;font-size:15px;font-weight:600;cursor:pointer}.log-save{background:#111;color:#fff}.log-btns button:not(.log-save){background:#EDEBE6;color:var(--txt)}.txn-list{margin-top:6px;display:flex;flex-direction:column;gap:4px}.txn-item{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--sub);background:#F7F6F2;padding:9px 12px;border-radius:10px}.txn-del{background:none;border:none;color:#6B6B6B;font-size:20px;cursor:pointer;padding:0 2px;line-height:1}.sum-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px 14px 0}.sum-card{background:var(--card);border-radius:16px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06)}.sum-lbl{font-size:12px;color:var(--sub);font-weight:500;margin-bottom:6px}.sum-val{font-size:26px;font-weight:700;letter-spacing:-.5px}.sum-sub{font-size:12px;color:var(--sub);margin-top:3px}.sum-val.g{color:var(--grn)}.sum-val.r{color:var(--red)}.txn-sec{padding:20px 14px 0}.txn-sec-title{font-size:17px;font-weight:700;margin-bottom:12px}.all-txn{background:var(--card);border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06)}.txn-row{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;border-bottom:0.5px solid var(--bdr)}.txn-row:last-child{border-bottom:none}.txn-name{font-size:14px;font-weight:500}.txn-meta{font-size:12px;color:var(--sub);margin-top:2px}.reset-btn{display:flex;align-items:center;justify-content:center;margin:14px 14px 0;padding:15px;background:var(--card);border:1px solid #FFD0D0;border-radius:16px;font-size:15px;color:var(--red);font-weight:600;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.06);width:calc(100% - 28px)}.itin-top{position:sticky;top:0;z-index:50;background:rgba(242,241,237,.94);backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-bottom:0.5px solid var(--bdr)}.itin-hdr{padding:16px 18px 4px;display:flex;align-items:baseline;gap:8px}.itin-title{font-size:22px;font-weight:700;letter-spacing:-.4px}.itin-sub{font-size:12px;color:var(--sub)}.day-tabs{display:flex;gap:6px;overflow-x:auto;padding:10px 14px 12px;scrollbar-width:none}.day-tabs::-webkit-scrollbar{display:none}.day-tab{flex-shrink:0;padding:8px 12px;border-radius:12px;border:1.5px solid var(--bdr);background:var(--card);font-size:12px;font-weight:600;cursor:pointer;text-align:center;line-height:1.3;color:var(--txt);min-width:48px}.day-tab.on{background:#111;color:#fff;border-color:#111}.dtag{font-size:10px;opacity:.72;font-weight:400;display:block}.day-panels{padding:14px 14px 80px}.day-panel{display:none}.day-panel.on{display:block}.slot-label{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--sub);text-transform:uppercase;margin:18px 0 8px 2px}.slot-label:first-child{margin-top:2px}.stop{background:var(--card);border-radius:16px;padding:13px 14px;margin-bottom:8px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.06)}.stop.on{box-shadow:0 2px 8px rgba(0,0,0,.10);border:1px solid #CCC8C0}.stop-row{display:flex;align-items:center;gap:10px}.sico{font-size:22px;flex-shrink:0;width:28px;text-align:center}.sinfo{flex:1;min-width:0}.sname{font-size:14px;font-weight:600}.scn{font-size:11px;color:var(--sub);margin-top:2px;line-height:1.3}.sright{display:flex;align-items:center;gap:5px;flex-shrink:0;margin-left:4px}.stime{font-size:11px;color:var(--sub);font-weight:500;white-space:nowrap}.mapbtn{font-size:19px;text-decoration:none;width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:9px;background:#F2F1ED;flex-shrink:0;border:none}.mapbtn:active{background:#E5E2DA}.copybtn{font-size:12px;font-weight:700;color:var(--blu);width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:9px;background:#EEF4FF;border:none;cursor:pointer;flex-shrink:0}.copybtn:active{background:#DBEAFE}.sdesc{display:none;margin-top:10px;padding-top:10px;border-top:0.5px solid var(--bdr);font-size:13px;color:var(--sub);line-height:1.7}.stop.on .sdesc{display:block}.card-tip{font-size:13px;font-weight:600;color:var(--grn);display:inline-block;margin-top:4px}.walk-hl{font-size:13px;color:var(--sub);line-height:1.8}.walk-hl b{color:var(--txt);font-weight:600}.travel{font-size:13px;color:var(--sub);padding:2px 4px 8px;line-height:1.4}.book-badge{background:#D1FAE5;color:#065F46;font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px;margin-right:4px}.price-badge{background:#F3F4F6;color:#374151;font-size:10px;font-weight:700;padding:2px 7px;border-radius:99px}.toast{position:fixed;bottom:calc(64px + env(safe-area-inset-bottom,0px) + 16px);left:50%;transform:translateX(-50%);background:#111;color:#fff;font-size:14px;font-weight:500;padding:10px 20px;border-radius:99px;z-index:9998;opacity:0;transition:opacity .2s;pointer-events:none;white-space:nowrap}.toast.show{opacity:1}.pb{padding-bottom:20px}</style>
 </head>
 <body>
 <div id="app">
@@ -85,7 +85,7 @@
     <div class="sinfo"><div class="sname">SQ830 lands PVG</div><div class="scn">上海浦东国际机场</div></div>
     <div class="sright">
       <span class="stime">15:05</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&lat=31.1443&lon=121.8083&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&lat=31.1443&lon=121.8083&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('上海浦东国际机场')">复</button>
     </div>
   </div>
@@ -97,7 +97,7 @@
     <div class="sinfo"><div class="sname">Swissôtel Grand Shanghai</div><div class="scn">上海宏安瑞士大酒店·静安区愚园路1号</div></div>
     <div class="sright">
       
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E5%AE%8F%E5%AE%89%E7%91%9E%E5%A3%AB%E5%A4%A7%E9%85%92%E5%BA%97%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1%E5%8F%B7&lat=31.2243&lon=121.4455&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E5%AE%8F%E5%AE%89%E7%91%9E%E5%A3%AB%E5%A4%A7%E9%85%92%E5%BA%97%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1%E5%8F%B7&lat=31.2243&lon=121.4455&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('上海宏安瑞士大酒店·静安区愚园路1号')">复</button>
     </div>
   </div>
@@ -110,7 +110,7 @@
     <div class="sinfo"><div class="sname">The Bund evening walk</div><div class="scn">外滩·中山东一路</div></div>
     <div class="sright">
       <span class="stime">18:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%96%E6%BB%A9%C2%B7%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF&lat=31.236&lon=121.49&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%96%E6%BB%A9%C2%B7%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF&lat=31.236&lon=121.49&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('外滩·中山东一路')">复</button>
     </div>
   </div>
@@ -123,7 +123,7 @@
     <div class="sinfo"><div class="sname">Dinner · Jesse · Jiu Guang Branch</div><div class="scn">老吉士酒家·静安区南京西路1618号久百城市广场8楼</div></div>
     <div class="sright">
       <span class="stime">19:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%80%81%E5%90%89%E5%A3%AB%E9%85%92%E5%AE%B6%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%E4%B9%85%E7%99%BE%E5%9F%8E%E5%B8%82%E5%B9%BF%E5%9C%BA8%E6%A5%BC&lat=31.2268&lon=121.4455&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%80%81%E5%90%89%E5%A3%AB%E9%85%92%E5%AE%B6%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%E4%B9%85%E7%99%BE%E5%9F%8E%E5%B8%82%E5%B9%BF%E5%9C%BA8%E6%A5%BC&lat=31.2268&lon=121.4455&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('老吉士酒家·静安区南京西路1618号久百城市广场8楼')">复</button>
     </div>
   </div>
@@ -135,7 +135,7 @@
     <div class="sinfo"><div class="sname">Coffee · Seesaw Coffee · Yuyuan Rd</div><div class="scn">喜茶·静安区愚园路1号</div></div>
     <div class="sright">
       <span class="stime">08:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%96%9C%E8%8C%B6%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1%E5%8F%B7&lat=31.2243&lon=121.444&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%96%9C%E8%8C%B6%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1%E5%8F%B7&lat=31.2243&lon=121.444&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('喜茶·静安区愚园路1号')">复</button>
     </div>
   </div>
@@ -148,7 +148,7 @@
     <div class="sinfo"><div class="sname">Yu Garden + Nanxiang Bun</div><div class="scn">豫园·黄浦区安仁街218号</div></div>
     <div class="sright">
       <span class="stime">08:45</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%B1%AB%E5%9B%AD%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%AE%89%E4%BB%81%E8%A1%97218%E5%8F%B7&lat=31.227&lon=121.4917&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%B1%AB%E5%9B%AD%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%AE%89%E4%BB%81%E8%A1%97218%E5%8F%B7&lat=31.227&lon=121.4917&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('豫园·黄浦区安仁街218号')">复</button>
     </div>
   </div>
@@ -161,7 +161,7 @@
     <div class="sinfo"><div class="sname">Lunch · Li Bai Xie</div><div class="scn">李百蟹·黄浦区中山东二路22号外滩22号3楼</div></div>
     <div class="sright">
       <span class="stime">12:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%9D%8E%E7%99%BE%E8%9F%B9%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF22%E5%8F%B7%E5%A4%96%E6%BB%A922%E5%8F%B73%E6%A5%BC&lat=31.229&lon=121.4907&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%9D%8E%E7%99%BE%E8%9F%B9%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF22%E5%8F%B7%E5%A4%96%E6%BB%A922%E5%8F%B73%E6%A5%BC&lat=31.229&lon=121.4907&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('李百蟹·黄浦区中山东二路22号外滩22号3楼')">复</button>
     </div>
   </div>
@@ -174,7 +174,7 @@
     <div class="sinfo"><div class="sname">Bund → North Bund walk</div><div class="scn">外滩→北外滩·中山东一路→东大名路</div></div>
     <div class="sright">
       <span class="stime">14:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%96%E6%BB%A9%E2%86%92%E5%8C%97%E5%A4%96%E6%BB%A9%C2%B7%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%E2%86%92%E4%B8%9C%E5%A4%A7%E5%90%8D%E8%B7%AF&lat=31.2475&lon=121.4975&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%96%E6%BB%A9%E2%86%92%E5%8C%97%E5%A4%96%E6%BB%A9%C2%B7%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%E2%86%92%E4%B8%9C%E5%A4%A7%E5%90%8D%E8%B7%AF&lat=31.2475&lon=121.4975&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('外滩→北外滩·中山东一路→东大名路')">复</button>
     </div>
   </div>
@@ -187,7 +187,7 @@
     <div class="sinfo"><div class="sname">Dinner · Fuzhou Rd Noodle Shop</div><div class="scn">福州路面馆·黄浦区福州路</div></div>
     <div class="sright">
       <span class="stime">18:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%A6%8F%E5%B7%9E%E8%B7%AF%E9%9D%A2%E9%A6%86%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E7%A6%8F%E5%B7%9E%E8%B7%AF&lat=31.234&lon=121.483&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%A6%8F%E5%B7%9E%E8%B7%AF%E9%9D%A2%E9%A6%86%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E7%A6%8F%E5%B7%9E%E8%B7%AF&lat=31.234&lon=121.483&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('福州路面馆·黄浦区福州路')">复</button>
     </div>
   </div>
@@ -199,7 +199,7 @@
     <div class="sinfo"><div class="sname">Breakfast · Baker & Spice</div><div class="scn">贝可思·徐汇区安福路195号</div></div>
     <div class="sright">
       <span class="stime">09:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%B4%9D%E5%8F%AF%E6%80%9D%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA%E5%AE%89%E7%A6%8F%E8%B7%AF195%E5%8F%B7&lat=31.2137&lon=121.443&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%B4%9D%E5%8F%AF%E6%80%9D%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA%E5%AE%89%E7%A6%8F%E8%B7%AF195%E5%8F%B7&lat=31.2137&lon=121.443&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('贝可思·徐汇区安福路195号')">复</button>
     </div>
   </div>
@@ -212,7 +212,7 @@
     <div class="sinfo"><div class="sname">Wukang Rd → Anfu Rd walk</div><div class="scn">武康路→安福路·徐汇区</div></div>
     <div class="sright">
       <span class="stime">10:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%AD%A6%E5%BA%B7%E8%B7%AF%E2%86%92%E5%AE%89%E7%A6%8F%E8%B7%AF%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA&lat=31.2115&lon=121.4428&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%AD%A6%E5%BA%B7%E8%B7%AF%E2%86%92%E5%AE%89%E7%A6%8F%E8%B7%AF%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA&lat=31.2115&lon=121.4428&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('武康路→安福路·徐汇区')">复</button>
     </div>
   </div>
@@ -224,7 +224,7 @@
     <div class="sinfo"><div class="sname">To Summer · Hunan Rd</div><div class="scn">观夏·徐汇区湖南路111号</div></div>
     <div class="sright">
       <span class="stime">12:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%A7%82%E5%A4%8F%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B9%96%E5%8D%97%E8%B7%AF111%E5%8F%B7&lat=31.2095&lon=121.4408&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%A7%82%E5%A4%8F%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B9%96%E5%8D%97%E8%B7%AF111%E5%8F%B7&lat=31.2095&lon=121.4408&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('观夏·徐汇区湖南路111号')">复</button>
     </div>
   </div>
@@ -237,7 +237,7 @@
     <div class="sinfo"><div class="sname">Lunch · O'Mills Sourdough</div><div class="scn">欧米面包·徐汇区永嘉路388号</div></div>
     <div class="sright">
       <span class="stime">13:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%AC%A7%E7%B1%B3%E9%9D%A2%E5%8C%85%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B0%B8%E5%98%89%E8%B7%AF388%E5%8F%B7&lat=31.2082&lon=121.4518&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%AC%A7%E7%B1%B3%E9%9D%A2%E5%8C%85%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B0%B8%E5%98%89%E8%B7%AF388%E5%8F%B7&lat=31.2082&lon=121.4518&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('欧米面包·徐汇区永嘉路388号')">复</button>
     </div>
   </div>
@@ -249,7 +249,7 @@
     <div class="sinfo"><div class="sname">Icicle · Hengshan Rd</div><div class="scn">之禾·徐汇区衡山路2号</div></div>
     <div class="sright">
       <span class="stime">14:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B9%8B%E7%A6%BE%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF2%E5%8F%B7&lat=31.2013&lon=121.4479&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B9%8B%E7%A6%BE%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF2%E5%8F%B7&lat=31.2013&lon=121.4479&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('之禾·徐汇区衡山路2号')">复</button>
     </div>
   </div>
@@ -262,7 +262,7 @@
     <div class="sinfo"><div class="sname">Coffee · OPS Coffee</div><div class="scn">太原路177号·徐汇区</div></div>
     <div class="sright">
       <span class="stime">15:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%AA%E5%8E%9F%E8%B7%AF177%E5%8F%B7%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA&lat=31.206&lon=121.4548&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%AA%E5%8E%9F%E8%B7%AF177%E5%8F%B7%C2%B7%E5%BE%90%E6%B1%87%E5%8C%BA&lat=31.206&lon=121.4548&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('太原路177号·徐汇区')">复</button>
     </div>
   </div>
@@ -275,7 +275,7 @@
     <div class="sinfo"><div class="sname">Dinner · Renhe · Jing'an Branch</div><div class="scn">人和馆·静安区</div></div>
     <div class="sright">
       <span class="stime">19:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%BA%BA%E5%92%8C%E9%A6%86%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA&lat=31.2248&lon=121.4432&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%BA%BA%E5%92%8C%E9%A6%86%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA&lat=31.2248&lon=121.4432&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('人和馆·静安区')">复</button>
     </div>
   </div>
@@ -287,100 +287,113 @@
     <div class="sinfo"><div class="sname">Speak Low (optional)</div><div class="scn">大急流·黄浦区复兴中路579号</div></div>
     <div class="sright">
       <span class="stime">20:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%A7%E6%80%A5%E6%B5%81%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%8D%E5%85%B4%E4%B8%AD%E8%B7%AF579%E5%8F%B7&lat=31.2133&lon=121.4668&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%A7%E6%80%A5%E6%B5%81%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%8D%E5%85%B4%E4%B8%AD%E8%B7%AF579%E5%8F%B7&lat=31.2133&lon=121.4668&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('大急流·黄浦区复兴中路579号')">复</button>
     </div>
   </div>
   <div class="sdesc">Basement cocktail bar. Only if you have energy.<br><span class="card-tip">💳 Citi+Amaze</span></div>
-</div></div><div class="day-panel" id="dp3"><div class="slot-label">🚄 Suzhou Day Trip</div>
-<div class="travel">🚗 Didi ~45 min</div><div class="stop" onclick="toggleStop(this)">
+</div></div><div class="day-panel" id="dp3"><div class="slot-label">🚌 Suzhou Coach Tour — WED 16 Sep (Klook · Mandarin guide)</div>
+<div class="travel">🚇 Metro Line 2 → People's Square (Jing'an Temple, 3 stops) · leave hotel ~06:30</div><div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
-    <span class="sico">🚄</span>
-    <div class="sinfo"><div class="sname">Depart Hongqiao Station</div><div class="scn">上海虹桥站·闵行区申贵路1500号</div></div>
+    <span class="sico">🎟</span>
+    <div class="sinfo"><div class="sname">Klook Meet · Park Hotel (国际饭店)</div><div class="scn">上海国际饭店·黄浦区南京西路170号</div></div>
     <div class="sright">
-      <span class="stime">07:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E7%AB%99%C2%B7%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E8%B4%B5%E8%B7%AF1500%E5%8F%B7&lat=31.1966&lon=121.3208&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
-      <button class="copybtn" onclick="event.stopPropagation();copyCN('上海虹桥站·闵行区申贵路1500号')">复</button>
+      <span class="stime">07:05</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85%E9%A5%AD%E5%BA%97%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF170%E5%8F%B7&lat=31.2342&lon=121.4737&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
+      <button class="copybtn" onclick="event.stopPropagation();copyCN('上海国际饭店·黄浦区南京西路170号')">复</button>
     </div>
   </div>
-  <div class="sdesc">⚠️ Book Klook private tour or self-guided HSR + garden timed entry before flying.</div>
+  <div class="sdesc"><span class="book-badge">🎟 KLK9602081363</span> <span class="price-badge">Booking YPG635244</span><br><b>Coach departs 07:15–07:30 — stand at the Park Hotel entrance on the north edge of People's Square by 07:05.</b><br>⚠️ <b>Mandarin-speaking guide only</b> — no English. Guide WeChats/SMSes the exact spot before 20:00 on 15 Sep; reply to confirm.<br>Redeem the per-person QR codes: Adult 1 <b>KLK0759796070</b> · Adult 2 <b>KLK9578012402</b>.<br>ℹ️ Package title also names "Zhouzhuang / Wuzhen" but the guide's route below does not include it — ask to confirm.<br>Not included: all meals, tips, ¥10 audio guide, Tiger Hill electric cart.<br><span class="card-tip">📞 Manager Xu 15262321877 (tel + WeChat) · 810597354@qq.com</span></div>
 </div>
-<div class="slot-label">🍽 Breakfast · ~S$5–8</div>
-<div class="stop" onclick="toggleStop(this)">
-  <div class="stop-row">
-    <span class="sico">🍳</span>
-    <div class="sinfo"><div class="sname">Breakfast · Local teahouse</div><div class="scn">苏州当地茶馆·姑苏区</div></div>
-    <div class="sright">
-      <span class="stime">08:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%8B%8F%E5%B7%9E%E5%BD%93%E5%9C%B0%E8%8C%B6%E9%A6%86%C2%B7%E5%A7%91%E8%8B%8F%E5%8C%BA&lat=31.323&lon=120.6258&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
-      <button class="copybtn" onclick="event.stopPropagation();copyCN('苏州当地茶馆·姑苏区')">复</button>
-    </div>
-  </div>
-  <div class="sdesc"><span class="book-badge">📋 Walk-in</span> <span class="price-badge">~S$5–8/pax</span><br>Soy milk 豆浆 + fried dough 油条. Very local, very cheap.<br><span class="card-tip">💳 UnionPay QR</span></div>
-</div>
+<div class="slot-label">🏯 Guided stops · tickets included</div>
 <div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🏯</span>
     <div class="sinfo"><div class="sname">Humble Administrator's Garden</div><div class="scn">拙政园·苏州市姑苏区东北街178号(东门入)</div></div>
     <div class="sright">
-      <span class="stime">09:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%8B%99%E6%94%BF%E5%9B%AD%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%E4%B8%9C%E5%8C%97%E8%A1%97178%E5%8F%B7%28%E4%B8%9C%E9%97%A8%E5%85%A5%29&lat=31.3237&lon=120.6258&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <span class="stime">10:00</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%8B%99%E6%94%BF%E5%9B%AD%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%E4%B8%9C%E5%8C%97%E8%A1%97178%E5%8F%B7%28%E4%B8%9C%E9%97%A8%E5%85%A5%29&lat=31.3237&lon=120.6258&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('拙政园·苏州市姑苏区东北街178号(东门入)')">复</button>
     </div>
   </div>
-  <div class="sdesc">UNESCO heritage. China's largest classical garden. Lotus ponds, covered walkways, rockeries. Allow 2 hrs — no rushing.</div>
+  <div class="sdesc">Ticket included · ~1h30 guided. UNESCO heritage, China's largest classical garden — lotus ponds, covered walkways, rockeries.</div>
 </div>
-<div class="stop" onclick="toggleStop(this)">
-  <div class="stop-row">
-    <span class="sico">🏛</span>
-    <div class="sinfo"><div class="sname">Suzhou Museum · New Building</div><div class="scn">苏州博物馆新馆·苏州市姑苏区东北街204号</div></div>
-    <div class="sright">
-      <span class="stime">11:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%8B%8F%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86%E6%96%B0%E9%A6%86%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%E4%B8%9C%E5%8C%97%E8%A1%97204%E5%8F%B7&lat=31.3243&lon=120.6283&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
-      <button class="copybtn" onclick="event.stopPropagation();copyCN('苏州博物馆新馆·苏州市姑苏区东北街204号')">复</button>
-    </div>
-  </div>
-  <div class="sdesc">I.M. Pei building immediately next door. Free with WeChat reservation. The courtyard alone is worth 20–30 min.</div>
-</div>
-<div class="slot-label">🍽 Lunch · ~S$12–18</div>
+<div class="slot-label">🍽 Lunch · 12:00 · optional, pay your own</div>
 <div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🍜</span>
-    <div class="sinfo"><div class="sname">Lunch · Pingjiang Rd canalside teahouse</div><div class="scn">平江路茶馆·苏州市姑苏区平江路</div></div>
+    <div class="sinfo"><div class="sname">Group lunch · Suyue Hotel</div><div class="scn">苏悦大酒店·苏州市姑苏区三香路998号</div></div>
     <div class="sright">
-      <span class="stime">13:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%B9%B3%E6%B1%9F%E8%B7%AF%E8%8C%B6%E9%A6%86%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%E5%B9%B3%E6%B1%9F%E8%B7%AF&lat=31.3182&lon=120.6295&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
-      <button class="copybtn" onclick="event.stopPropagation();copyCN('平江路茶馆·苏州市姑苏区平江路')">复</button>
+      <span class="stime">12:00</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%8B%8F%E6%82%A6%E5%A4%A7%E9%85%92%E5%BA%97%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%E4%B8%89%E9%A6%99%E8%B7%AF998%E5%8F%B7&lat=31.3033&lon=120.6003&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
+      <button class="copybtn" onclick="event.stopPropagation();copyCN('苏悦大酒店·苏州市姑苏区三香路998号')">复</button>
     </div>
   </div>
-  <div class="sdesc"><span class="book-badge">📋 Walk-in</span> <span class="price-badge">~S$12–18/pax</span><br>Suzhou-style noodles 苏式汤面 or braised duck 酱鸭 at a canalside teahouse.<br><span class="card-tip">💳 UnionPay QR</span></div>
+  <div class="sdesc"><span class="book-badge">📋 Optional · pay own</span> <span class="price-badge">~S$10–15/pax</span><br>30-min group set lunch. Skippable — grab your own noodles nearby or just have tea. Confirm the exact venue with the guide on the day.<br><span class="card-tip">💳 Cash / WeChat Pay</span></div>
 </div>
-<div class="slot-label">🗺 Afternoon</div>
+<div class="slot-label">🏯 Afternoon stops · tickets included</div>
 <div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
-    <span class="sico">🌊</span>
-    <div class="sinfo"><div class="sname">Pingjiang Road canal walk</div><div class="scn">平江路·苏州市姑苏区(干将东路南入口起)</div></div>
+    <span class="sico">🔔</span>
+    <div class="sinfo"><div class="sname">Hanshan Temple</div><div class="scn">寒山寺·苏州市姑苏区寒山寺弄24号</div></div>
     <div class="sright">
-      <span class="stime">13:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%B9%B3%E6%B1%9F%E8%B7%AF%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%28%E5%B9%B2%E5%B0%86%E4%B8%9C%E8%B7%AF%E5%8D%97%E5%85%A5%E5%8F%A3%E8%B5%B7%29&lat=31.3182&lon=120.6295&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
-      <button class="copybtn" onclick="event.stopPropagation();copyCN('平江路·苏州市姑苏区(干将东路南入口起)')">复</button>
+      <span class="stime">13:00</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%AF%92%E5%B1%B1%E5%AF%BA%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%E5%AF%92%E5%B1%B1%E5%AF%BA%E5%BC%8424%E5%8F%B7&lat=31.3096&lon=120.5748&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
+      <button class="copybtn" onclick="event.stopPropagation();copyCN('寒山寺·苏州市姑苏区寒山寺弄24号')">复</button>
     </div>
   </div>
-  <div class="sdesc"><div class="walk-hl"><b>START at Ganjiang East Rd 干将东路 intersection</b>. Walk NORTH along the canal for ~800m:<br>· <b>Stone arch bridges 拱桥</b> — cross any one for the classic water-town shot: canal + whitewashed walls<br>· <b>Ouzhiyuan Tea House 耦止园茶室</b> — pavilion right on the water, the most scenic tea stop<br>· <b>Indie shops</b> — silk fans, hand-embroidery, ceramics, dried plum snacks<br>· <b>Side lanes</b> (eg. Daru Alley 大儒巷) — quieter and more local than the main strip<br>· Cat cafés and small galleries tucked into the laneways<br>Road runs 1.6 km total to Baita East Rd 白塔东路 — go as far as feels right</div></div>
+  <div class="sdesc">Admission included · ~1h guided. The "midnight bell" temple from the Tang poem 枫桥夜泊 — bell tower, Maple Bridge, Ming/Qing halls.</div>
 </div>
-<div class="slot-label">🌆 Evening (back in Shanghai)</div>
-<div class="slot-label">🍽 Dinner · ~S$15–20</div>
+<div class="stop" onclick="toggleStop(this)">
+  <div class="stop-row">
+    <span class="sico">⛰</span>
+    <div class="sinfo"><div class="sname">Tiger Hill</div><div class="scn">虎丘·苏州市姑苏区虎丘山门内8号</div></div>
+    <div class="sright">
+      <span class="stime">14:30</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%99%8E%E4%B8%98%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%E8%99%8E%E4%B8%98%E5%B1%B1%E9%97%A8%E5%86%858%E5%8F%B7&lat=31.3312&lon=120.5730&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
+      <button class="copybtn" onclick="event.stopPropagation();copyCN('虎丘·苏州市姑苏区虎丘山门内8号')">复</button>
+    </div>
+  </div>
+  <div class="sdesc">Ticket included · ~1h guided. The 1000-year <b>Leaning Pagoda 虎丘塔</b> and Sword Pool 剑池. ⚠️ Electric cart inside the grounds is <b>not</b> included (~¥10).</div>
+</div>
+<div class="slot-label">🚶 Free time</div>
+<div class="stop" onclick="toggleStop(this)">
+  <div class="stop-row">
+    <span class="sico">🏮</span>
+    <div class="sinfo"><div class="sname">Shantang Street · 七里山塘</div><div class="scn">山塘街·苏州市姑苏区(广济路南入口)</div></div>
+    <div class="sright">
+      <span class="stime">16:00</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%B1%B1%E5%A1%98%E8%A1%97%C2%B7%E8%8B%8F%E5%B7%9E%E5%B8%82%E5%A7%91%E8%8B%8F%E5%8C%BA%28%E5%B9%BF%E6%B5%8E%E8%B7%AF%E5%8D%97%E5%85%A5%E5%8F%A3%29&lat=31.3175&lon=120.5940&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
+      <button class="copybtn" onclick="event.stopPropagation();copyCN('山塘街·苏州市姑苏区(广济路南入口)')">复</button>
+    </div>
+  </div>
+  <div class="sdesc"><span class="book-badge">🚶 Free time · ~30 min</span><br>Tang-era canal street — arched bridges, lanterns, snack stalls. Short stop: stay near the coach drop-off and get the exact departure time from the guide.</div>
+</div>
+<div class="slot-label">🌆 Evening — back in Shanghai</div>
+<div class="travel">🚌 Coach returns to People's Square ~20:00–20:30</div><div class="stop" onclick="toggleStop(this)">
+  <div class="stop-row">
+    <span class="sico">🚌</span>
+    <div class="sinfo"><div class="sname">Drop-off · People's Square</div><div class="scn">人民广场·黄浦区南京西路</div></div>
+    <div class="sright">
+      <span class="stime">20:15</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%BA%BA%E6%B0%91%E5%B9%BF%E5%9C%BA%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF&lat=31.2305&lon=121.4737&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
+      <button class="copybtn" onclick="event.stopPropagation();copyCN('人民广场·黄浦区南京西路')">复</button>
+    </div>
+  </div>
+  <div class="sdesc">Drops back near the pickup point (time "for reference only"). Back to the Swissôtel: Metro Line 2 west → Jing'an Temple (3 stops), or Didi ~15 min.</div>
+</div>
+<div class="slot-label">🍽 Dinner · ~S$15–20 · late</div>
 <div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🍢</span>
     <div class="sinfo"><div class="sname">Dinner · Hen Jiu Yi Qian</div><div class="scn">很久以前烤串·上海(Dianping确认地址)</div></div>
     <div class="sright">
-      <span class="stime">19:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%E7%83%A4%E4%B8%B2%C2%B7%E4%B8%8A%E6%B5%B7%28Dianping%E7%A1%AE%E8%AE%A4%E5%9C%B0%E5%9D%80%29&lat=31.22&lon=121.46&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <span class="stime">21:00</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%E7%83%A4%E4%B8%B2%C2%B7%E4%B8%8A%E6%B5%B7%28Dianping%E7%A1%AE%E8%AE%A4%E5%9C%B0%E5%9D%80%29&lat=31.22&lon=121.46&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('很久以前烤串·上海(Dianping确认地址)')">复</button>
     </div>
   </div>
-  <div class="sdesc"><span class="book-badge">📋 Check Dianping</span> <span class="price-badge">~S$15–20/pax</span><br>Skewers and grill. Casual and fun. ⚠️ Confirm exact branch on Dianping.<br><span class="card-tip">💳 Lady's / Citi+Amaze</span></div>
+  <div class="sdesc"><span class="book-badge">📋 Check Dianping</span> <span class="price-badge">~S$15–20/pax</span><br>Skewers and grill. You're back from Suzhou only ~20:30 — pick a branch near People's Square or near the hotel, and check it's open late. ⚠️ Confirm exact branch on Dianping.<br><span class="card-tip">💳 Lady's / Citi+Amaze</span></div>
 </div></div><div class="day-panel" id="dp4"><div class="slot-label">☕ Coffee + Breakfast</div>
 <div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
@@ -388,7 +401,7 @@
     <div class="sinfo"><div class="sname">Breakfast · Apoli Bakery</div><div class="scn">阿波罗意式烘焙·静安区万航渡路36号</div></div>
     <div class="sright">
       <span class="stime">08:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%98%BF%E6%B3%A2%E7%BD%97%E6%84%8F%E5%BC%8F%E7%83%98%E7%84%99%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E4%B8%87%E8%88%AA%E6%B8%A1%E8%B7%AF36%E5%8F%B7&lat=31.2239&lon=121.4418&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%98%BF%E6%B3%A2%E7%BD%97%E6%84%8F%E5%BC%8F%E7%83%98%E7%84%99%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E4%B8%87%E8%88%AA%E6%B8%A1%E8%B7%AF36%E5%8F%B7&lat=31.2239&lon=121.4418&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('阿波罗意式烘焙·静安区万航渡路36号')">复</button>
     </div>
   </div>
@@ -401,7 +414,7 @@
     <div class="sinfo"><div class="sname">Jing'an Temple</div><div class="scn">静安寺·静安区南京西路1686号</div></div>
     <div class="sright">
       <span class="stime">09:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%9D%99%E5%AE%89%E5%AF%BA%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1686%E5%8F%B7&lat=31.2245&lon=121.4477&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%9D%99%E5%AE%89%E5%AF%BA%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1686%E5%8F%B7&lat=31.2245&lon=121.4477&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('静安寺·静安区南京西路1686号')">复</button>
     </div>
   </div>
@@ -414,7 +427,7 @@
     <div class="sinfo"><div class="sname">Lunch · Gongyan</div><div class="scn">贡院·静安区</div></div>
     <div class="sright">
       <span class="stime">12:10</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%B4%A1%E9%99%A2%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA&lat=31.226&lon=121.45&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%B4%A1%E9%99%A2%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA&lat=31.226&lon=121.45&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('贡院·静安区')">复</button>
     </div>
   </div>
@@ -427,7 +440,7 @@
     <div class="sinfo"><div class="sname">Plaza 66</div><div class="scn">恒隆广场·静安区南京西路1266号</div></div>
     <div class="sright">
       <span class="stime">14:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1266%E5%8F%B7&lat=31.228&lon=121.4572&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1266%E5%8F%B7&lat=31.228&lon=121.4572&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('恒隆广场·静安区南京西路1266号')">复</button>
     </div>
   </div>
@@ -439,7 +452,7 @@
     <div class="sinfo"><div class="sname">Zhang Yuan · Buy Songmont Here</div><div class="scn">张园·静安区南京西路1025弄</div></div>
     <div class="sright">
       <span class="stime">15:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%BC%A0%E5%9B%AD%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1025%E5%BC%84&lat=31.23&lon=121.464&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%BC%A0%E5%9B%AD%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1025%E5%BC%84&lat=31.23&lon=121.464&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('张园·静安区南京西路1025弄')">复</button>
     </div>
   </div>
@@ -451,7 +464,7 @@
     <div class="sinfo"><div class="sname">The Middle House · Afternoon Tea</div><div class="scn">中度酒店·静安区南京西路1038号</div></div>
     <div class="sright">
       <span class="stime">16:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%AD%E5%BA%A6%E9%85%92%E5%BA%97%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1038%E5%8F%B7&lat=31.2298&lon=121.4615&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%AD%E5%BA%A6%E9%85%92%E5%BA%97%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1038%E5%8F%B7&lat=31.2298&lon=121.4615&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('中度酒店·静安区南京西路1038号')">复</button>
     </div>
   </div>
@@ -464,7 +477,7 @@
     <div class="sinfo"><div class="sname">Dinner · The Flow @ Swissôtel</div><div class="scn">飘·静安区愚园路1号宏安瑞士大酒店</div></div>
     <div class="sright">
       <span class="stime">19:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%A3%98%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1%E5%8F%B7%E5%AE%8F%E5%AE%89%E7%91%9E%E5%A3%AB%E5%A4%A7%E9%85%92%E5%BA%97&lat=31.2243&lon=121.4455&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%A3%98%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E6%84%9A%E5%9B%AD%E8%B7%AF1%E5%8F%B7%E5%AE%8F%E5%AE%89%E7%91%9E%E5%A3%AB%E5%A4%A7%E9%85%92%E5%BA%97&lat=31.2243&lon=121.4455&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('飘·静安区愚园路1号宏安瑞士大酒店')">复</button>
     </div>
   </div>
@@ -476,7 +489,7 @@
     <div class="sinfo"><div class="sname">Check out Swissôtel → PuLi</div><div class="scn">璞麗酒店·静安区常德路1号</div></div>
     <div class="sright">
       <span class="stime">09:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%92%9E%E9%BA%97%E9%85%92%E5%BA%97%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF1%E5%8F%B7&lat=31.2265&lon=121.4478&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%92%9E%E9%BA%97%E9%85%92%E5%BA%97%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF1%E5%8F%B7&lat=31.2265&lon=121.4478&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('璞麗酒店·静安区常德路1号')">复</button>
     </div>
   </div>
@@ -489,7 +502,7 @@
     <div class="sinfo"><div class="sname">Brunch · Weixiangzhai · 1950s Original</div><div class="scn">味香斋·黄浦区雁荡路14号</div></div>
     <div class="sright">
       <span class="stime">10:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%91%B3%E9%A6%99%E6%96%8B%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%9B%81%E8%8D%A1%E8%B7%AF14%E5%8F%B7&lat=31.2207&lon=121.4699&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%91%B3%E9%A6%99%E6%96%8B%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E9%9B%81%E8%8D%A1%E8%B7%AF14%E5%8F%B7&lat=31.2207&lon=121.4699&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('味香斋·黄浦区雁荡路14号')">复</button>
     </div>
   </div>
@@ -502,24 +515,37 @@
     <div class="sinfo"><div class="sname">Huaihai Mid Rd walk</div><div class="scn">淮海中路·黄浦区太仓路→徐汇区淮海中路999号</div></div>
     <div class="sright">
       <span class="stime">11:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF%E2%86%92%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7&lat=31.2205&lon=121.4732&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF%E2%86%92%E5%BE%90%E6%B1%87%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF999%E5%8F%B7&lat=31.2205&lon=121.4732&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('淮海中路·黄浦区太仓路→徐汇区淮海中路999号')">复</button>
     </div>
   </div>
-  <div class="sdesc"><div class="walk-hl">Walk west without backtracking — a natural 2 km corridor:<br>· <b>Xintiandi 新天地</b> (太仓路181弄) — restored shikumen laneways. Ficus 裴可 in Infinitus for modern Chinese tailoring<br>· <b>Shang Xia 上下</b> (淮海中路233号) — Hermès-backed Chinese craftsmanship: zitan wood, cashmere, handmade fans<br>· <b>Documents 气味图书馆</b> — all-black Chinese perfume brand, very photogenic on Rednote<br>· <b>Gentle Monster 젠틀몬스터</b> (淮海中路800号) — 3 floors of seasonal sculptural installations<br>· <b>IAPM Mall 环贸广场</b> (淮海中路999号) — CitySuper 城市超市 basement for local snacks to bring home</div></div>
+  <div class="sdesc"><div class="walk-hl">Walk west without backtracking — a natural 2 km corridor:<br>· <b>Xintiandi 新天地</b> (太仓路181弄) — restored shikumen laneways. Ficus 裴可 in Infinitus for modern Chinese tailoring<br>· <b>Shang Xia 上下</b> (淮海中路233号) — Hermès-backed Chinese craftsmanship: zitan wood, cashmere, handmade fans<br>· <b>Documents 气味图书馆</b> — all-black Chinese perfume brand, very photogenic on Rednote<br>· <b>PANE</b> (淮海中路523号, TX淮海 L1) — viral minimalist leather sneakers, own stop below<br>· <b>Gentle Monster 젠틀몬스터</b> (淮海中路800号) — 3 floors of seasonal sculptural installations<br>· <b>IAPM Mall 环贸广场</b> (淮海中路999号) — CitySuper 城市超市 basement for local snacks to bring home</div></div>
 </div>
 <div class="slot-label">☕ Coffee + Viral Drink</div>
 <div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🍵</span>
-    <div class="sinfo"><div class="sname">MatchaWang 抹茶王 · 抹茶王·黄浦区淮海中路550号HAI550购物中心1F</div><div class="scn">13:30</div></div>
+    <div class="sinfo"><div class="sname">MatchaWang 抹茶王</div><div class="scn">抹茶王·黄浦区淮海中路550号HAI550购物中心1F</div></div>
     <div class="sright">
-      <span class="stime"><b>Most viral matcha in Shanghai on Rednote 2025–26.</b> HAI550 mall, 1F. Open 10:00–20:00.<br>Must-order: <b>Sheep marshmallow matcha latte 绵羊抹茶拿铁</b> — each sheep handcrafted per order. Genuinely delicious.<br>⚠️ Weekday = walk straight in. Weekends = 30–60 min queue. You are here on a Tuesday.</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=13%3A30&lat=121.468&lon=Citi+Amaze&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
-      <button class="copybtn" onclick="event.stopPropagation();copyCN('13:30')">复</button>
+      <span class="stime">13:30</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%8A%B9%E8%8C%B6%E7%8E%8B%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF550%E5%8F%B7HAI550%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%831F&lat=31.2210&lon=121.4680&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
+      <button class="copybtn" onclick="event.stopPropagation();copyCN('抹茶王·黄浦区淮海中路550号HAI550购物中心1F')">复</button>
     </div>
   </div>
-  <div class="sdesc"><span class="book-badge">📋 S$8–12</span> <br>31.221<br><span class="card-tip">💳 Walk-in weekday</span></div>
+  <div class="sdesc"><span class="book-badge">📋 Walk-in</span> <span class="price-badge">~S$8–12</span><br><b>Most viral matcha in Shanghai on Rednote 2025–26.</b> HAI550 mall, 1F. Open 10:00–20:00.<br>Must-order: <b>Sheep marshmallow matcha latte 绵羊抹茶拿铁</b> — each sheep handcrafted per order. Genuinely delicious.<br>⚠️ Weekday = walk straight in. Weekends = 30–60 min queue. You are here on a Tuesday.<br><span class="card-tip">💳 Walk-in weekday</span></div>
+</div>
+<div class="slot-label">👟 Viral Sneakers · optional</div>
+<div class="stop" onclick="toggleStop(this)">
+  <div class="stop-row">
+    <span class="sico">👟</span>
+    <div class="sinfo"><div class="sname">PANE · TX Huaihai</div><div class="scn">PANE·黄浦区淮海中路523号TX淮海L1-05,06</div></div>
+    <div class="sright">
+      <span class="stime">14:15</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=PANE%C2%B7%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF523%E5%8F%B7TX%E6%B7%AE%E6%B5%B7L1-05%2C06&lat=31.2216&lon=121.4653&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
+      <button class="copybtn" onclick="event.stopPropagation();copyCN('PANE·黄浦区淮海中路523号TX淮海L1-05,06')">复</button>
+    </div>
+  </div>
+  <div class="sdesc"><span class="book-badge">📋 Walk-in</span> <span class="price-badge">~S$110–190</span><br><b>Viral minimalist leather sneakers</b> — founded in Shanghai in 2022 by Chen Ning, everywhere on Rednote 2025–26 (the deconstructed "NO-GI" light trainer). 100% cowhide, quiet neutral tones.<br>L1-05,06 inside TX淮海 — ≈2 min west of MatchaWang on the same Huaihai Rd walk. Open 10:00–22:00.<br><span class="card-tip">🏛 Flagship: PANE PLAZA, 愚园路22号 — the Greek-column store all over Rednote, ≈4 min walk from Swissôtel / PuLi by Jing'an Temple</span></div>
 </div>
 <div class="slot-label">🌆 Evening</div>
 <div class="stop" onclick="toggleStop(this)">
@@ -528,7 +554,7 @@
     <div class="sinfo"><div class="sname">Check into PuLi</div><div class="scn">璞麗酒店·静安区常德路1号</div></div>
     <div class="sright">
       <span class="stime">15:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%92%9E%E9%BA%97%E9%85%92%E5%BA%97%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF1%E5%8F%B7&lat=31.2265&lon=121.4478&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%92%9E%E9%BA%97%E9%85%92%E5%BA%97%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF1%E5%8F%B7&lat=31.2265&lon=121.4478&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('璞麗酒店·静安区常德路1号')">复</button>
     </div>
   </div>
@@ -541,7 +567,7 @@
     <div class="sinfo"><div class="sname">Dinner · PuLi Hotel Restaurant</div><div class="scn">璞麗酒店餐厅·静安区常德路1号</div></div>
     <div class="sright">
       <span class="stime">19:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%92%9E%E9%BA%97%E9%85%92%E5%BA%97%E9%A4%90%E5%8E%85%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF1%E5%8F%B7&lat=31.2265&lon=121.4478&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%92%9E%E9%BA%97%E9%85%92%E5%BA%97%E9%A4%90%E5%8E%85%C2%B7%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF1%E5%8F%B7&lat=31.2265&lon=121.4478&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('璞麗酒店餐厅·静安区常德路1号')">复</button>
     </div>
   </div>
@@ -553,7 +579,7 @@
     <div class="sinfo"><div class="sname">Depart Shanghai Station · G16</div><div class="scn">上海站·闸北区秣陵路303号</div></div>
     <div class="sright">
       <span class="stime">11:23</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E7%AB%99%C2%B7%E9%97%B8%E5%8C%97%E5%8C%BA%E7%A7%A3%E9%99%B5%E8%B7%AF303%E5%8F%B7&lat=31.2494&lon=121.4557&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E7%AB%99%C2%B7%E9%97%B8%E5%8C%97%E5%8C%BA%E7%A7%A3%E9%99%B5%E8%B7%AF303%E5%8F%B7&lat=31.2494&lon=121.4557&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('上海站·闸北区秣陵路303号')">复</button>
     </div>
   </div>
@@ -566,7 +592,7 @@
     <div class="sinfo"><div class="sname">Lunch · Station bento</div><div class="scn">上海站便利店</div></div>
     <div class="sright">
       <span class="stime">11:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E7%AB%99%E4%BE%BF%E5%88%A9%E5%BA%97&lat=31.2494&lon=121.4557&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%B8%8A%E6%B5%B7%E7%AB%99%E4%BE%BF%E5%88%A9%E5%BA%97&lat=31.2494&lon=121.4557&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('上海站便利店')">复</button>
     </div>
   </div>
@@ -578,7 +604,7 @@
     <div class="sinfo"><div class="sname">Arrive Beijing South · G16</div><div class="scn">北京南站·丰台区永外大街车站路12号</div></div>
     <div class="sright">
       <span class="stime">16:34</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8C%97%E4%BA%AC%E5%8D%97%E7%AB%99%C2%B7%E4%B8%B0%E5%8F%B0%E5%8C%BA%E6%B0%B8%E5%A4%96%E5%A4%A7%E8%A1%97%E8%BD%A6%E7%AB%99%E8%B7%AF12%E5%8F%B7&lat=39.865&lon=116.379&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8C%97%E4%BA%AC%E5%8D%97%E7%AB%99%C2%B7%E4%B8%B0%E5%8F%B0%E5%8C%BA%E6%B0%B8%E5%A4%96%E5%A4%A7%E8%A1%97%E8%BD%A6%E7%AB%99%E8%B7%AF12%E5%8F%B7&lat=39.865&lon=116.379&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('北京南站·丰台区永外大街车站路12号')">复</button>
     </div>
   </div>
@@ -590,7 +616,7 @@
     <div class="sinfo"><div class="sname">Regent Beijing</div><div class="scn">王府半岛酒店·东城区金鱼胡同99号</div></div>
     <div class="sright">
       <span class="stime">~17:15</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E5%8D%8A%E5%B2%9B%E9%85%92%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E9%87%91%E9%B1%BC%E8%83%A1%E5%90%8C99%E5%8F%B7&lat=39.9136&lon=116.4143&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E5%8D%8A%E5%B2%9B%E9%85%92%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E9%87%91%E9%B1%BC%E8%83%A1%E5%90%8C99%E5%8F%B7&lat=39.9136&lon=116.4143&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('王府半岛酒店·东城区金鱼胡同99号')">复</button>
     </div>
   </div>
@@ -603,7 +629,7 @@
     <div class="sinfo"><div class="sname">Wangfujing evening walk</div><div class="scn">王府井大街·东城区</div></div>
     <div class="sright">
       <span class="stime">18:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA&lat=39.91&lon=116.412&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA&lat=39.91&lon=116.412&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('王府井大街·东城区')">复</button>
     </div>
   </div>
@@ -616,23 +642,23 @@
     <div class="sinfo"><div class="sname">Dinner · Dawanju · Dongsi Branch</div><div class="scn">大碗居·东城区东四南大街283号</div></div>
     <div class="sright">
       <span class="stime">19:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%A7%E7%A2%97%E5%B1%85%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E4%B8%9C%E5%9B%9B%E5%8D%97%E5%A4%A7%E8%A1%97283%E5%8F%B7&lat=39.9267&lon=116.4177&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%A7%E7%A2%97%E5%B1%85%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E4%B8%9C%E5%9B%9B%E5%8D%97%E5%A4%A7%E8%A1%97283%E5%8F%B7&lat=39.9267&lon=116.4177&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('大碗居·东城区东四南大街283号')">复</button>
     </div>
   </div>
   <div class="sdesc"><span class="book-badge">📋 Walk-in</span> <span class="price-badge">~S$15–20/pax</span><br>Old Beijing home-style. Big bowls, cheap, no queue. Easy arrival-night dinner.<br><span class="card-tip">💳 Lady's / Citi+Amaze</span></div>
-</div></div><div class="day-panel" id="dp7"><div class="slot-label">🏯 Forbidden City — SUNDAY ✅ (Klook small group)</div>
-<div class="travel">🚗 Didi to Qianmen</div><div class="stop" onclick="toggleStop(this)">
+</div></div><div class="day-panel" id="dp7"><div class="slot-label">🏯 Forbidden City — SUN 20 Sep ✅ (Klook · English guide)</div>
+<div class="travel">🚇 Line 2 / 8 → Qianmen, Exit I · or Didi to 北京坊</div><div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🎟</span>
     <div class="sinfo"><div class="sname">Klook Meet · Muji Hotel Beijing</div><div class="scn">前门·北京坊·东城区前门西河沿街</div></div>
     <div class="sright">
       <span class="stime">07:50</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%89%8D%E9%97%A8%C2%B7%E5%8C%97%E4%BA%AC%E5%9D%8A%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E5%89%8D%E9%97%A8%E8%A5%BF%E6%B2%B3%E6%B2%BF%E8%A1%97&lat=39.8987&lon=116.3913&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%89%8D%E9%97%A8%C2%B7%E5%8C%97%E4%BA%AC%E5%9D%8A%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E5%89%8D%E9%97%A8%E8%A5%BF%E6%B2%B3%E6%B2%BF%E8%A1%97&lat=39.8987&lon=116.3913&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('前门·北京坊·东城区前门西河沿街')">复</button>
     </div>
   </div>
-  <div class="sdesc">★4.9 · Qianmen Station 前门站 Exit I, walk 300m west. Guide contacts 1 day before.</div>
+  <div class="sdesc"><span class="book-badge">🎟 KLK4222666177</span> <span class="price-badge">Booking XFU806635</span><br><b>Departs 08:00 — be there 07:50.</b> Meet at the MUJI HOTEL in Beijing Fang 北京坊.<br>🚇 Qianmen station (Line 2 / 8), <b>Exit I</b>, walk <b>west 150 m</b>. · 🚕 driver: 「无印良品酒店北京坊」<br>English-speaking guide. Bring <b>passports</b> — needed for Tiananmen + palace entry. Not for CN / TW / HK passport holders.<br><span class="card-tip">📞 Michael +86 139 1094 1246 · exact time re-confirmed by guide 1 day before</span></div>
 </div>
 <div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
@@ -640,11 +666,11 @@
     <div class="sinfo"><div class="sname">Tiananmen Square</div><div class="scn">天安门广场·东城区长安街</div></div>
     <div class="sright">
       <span class="stime">08:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E9%95%BF%E5%AE%89%E8%A1%97&lat=39.9054&lon=116.3976&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%A9%E5%AE%89%E9%97%A8%E5%B9%BF%E5%9C%BA%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E9%95%BF%E5%AE%89%E8%A1%97&lat=39.9054&lon=116.3976&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('天安门广场·东城区长安街')">复</button>
     </div>
   </div>
-  <div class="sdesc">Monument to the People's Heroes 人民英雄纪念碑 + Great Hall exterior.</div>
+  <div class="sdesc">40-min guided walk — Monument to the People's Heroes 人民英雄纪念碑 + Great Hall exterior. ⚠️ If the Square is closed for an event, the tour swaps in the Palace Museum + Jingshan instead.</div>
 </div>
 <div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
@@ -652,19 +678,19 @@
     <div class="sinfo"><div class="sname">Forbidden City</div><div class="scn">故宫博物院·东城区景山前街4号(午门入)</div></div>
     <div class="sright">
       <span class="stime">09:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%99%AF%E5%B1%B1%E5%89%8D%E8%A1%974%E5%8F%B7%28%E5%8D%88%E9%97%A8%E5%85%A5%29&lat=39.9163&lon=116.3972&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%99%AF%E5%B1%B1%E5%89%8D%E8%A1%974%E5%8F%B7%28%E5%8D%88%E9%97%A8%E5%85%A5%29&lat=39.9163&lon=116.3972&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('故宫博物院·东城区景山前街4号(午门入)')">复</button>
     </div>
   </div>
-  <div class="sdesc">Full palace circuit + Treasure Gallery 珍宝馆. Tour ends ~12:30.</div>
+  <div class="sdesc">Full palace circuit + Treasure Gallery 珍宝馆 · 3h30 English-guided. Tour <b>exits at the North Gate 神武门</b> ~12:30 — Jingshan Park is straight across the road.</div>
 </div>
 <div class="travel">🚶 5 min north</div><div class="stop" onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🏔</span>
     <div class="sinfo"><div class="sname">Jingshan Park · Wanchun Pavilion</div><div class="scn">景山公园·东城区景山西街44号</div></div>
     <div class="sright">
-      <span class="stime">13:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%99%AF%E5%B1%B1%E8%A5%BF%E8%A1%9744%E5%8F%B7&lat=39.9244&lon=116.3913&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <span class="stime">12:40</span>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%99%AF%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%99%AF%E5%B1%B1%E8%A5%BF%E8%A1%9744%E5%8F%B7&lat=39.9244&lon=116.3913&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('景山公园·东城区景山西街44号')">复</button>
     </div>
   </div>
@@ -677,7 +703,7 @@
     <div class="sinfo"><div class="sname">Lunch · Siji Minfu · Jingshan Branch</div><div class="scn">四季民福烤鸭店·东城区景山东街(美丽道商场)</div></div>
     <div class="sright">
       <span class="stime">13:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%9B%9B%E5%AD%A3%E6%B0%91%E7%A6%8F%E7%83%A4%E9%B8%AD%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%99%AF%E5%B1%B1%E4%B8%9C%E8%A1%97%28%E7%BE%8E%E4%B8%BD%E9%81%93%E5%95%86%E5%9C%BA%29&lat=39.922&lon=116.393&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%9B%9B%E5%AD%A3%E6%B0%91%E7%A6%8F%E7%83%A4%E9%B8%AD%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%99%AF%E5%B1%B1%E4%B8%9C%E8%A1%97%28%E7%BE%8E%E4%B8%BD%E9%81%93%E5%95%86%E5%9C%BA%29&lat=39.922&lon=116.393&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('四季民福烤鸭店·东城区景山东街(美丽道商场)')">复</button>
     </div>
   </div>
@@ -690,7 +716,7 @@
     <div class="sinfo"><div class="sname">Beihai Park</div><div class="scn">北海公园·西城区文津街1号</div></div>
     <div class="sright">
       <span class="stime">15:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%E6%96%87%E6%B4%A5%E8%A1%971%E5%8F%B7&lat=39.9246&lon=116.3893&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%E6%96%87%E6%B4%A5%E8%A1%971%E5%8F%B7&lat=39.9246&lon=116.3893&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('北海公园·西城区文津街1号')">复</button>
     </div>
   </div>
@@ -703,7 +729,7 @@
     <div class="sinfo"><div class="sname">Dinner · Fangzhuanchang Zhajiangmian</div><div class="scn">方砖厂69号炸酱面·东城区方砖厂胡同1号</div></div>
     <div class="sright">
       <span class="stime">18:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%96%B9%E7%A0%96%E5%8E%8269%E5%8F%B7%E7%82%B8%E9%85%B1%E9%9D%A2%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%96%B9%E7%A0%96%E5%8E%82%E8%83%A1%E5%90%8C1%E5%8F%B7&lat=39.922&lon=116.405&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%96%B9%E7%A0%96%E5%8E%8269%E5%8F%B7%E7%82%B8%E9%85%B1%E9%9D%A2%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%96%B9%E7%A0%96%E5%8E%82%E8%83%A1%E5%90%8C1%E5%8F%B7&lat=39.922&lon=116.405&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('方砖厂69号炸酱面·东城区方砖厂胡同1号')">复</button>
     </div>
   </div>
@@ -715,7 +741,7 @@
     <div class="sinfo"><div class="sname">Depart Hotel · 05:50</div><div class="scn">王府半岛酒店·东城区金鱼胡同99号</div></div>
     <div class="sright">
       <span class="stime">05:50</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E5%8D%8A%E5%B2%9B%E9%85%92%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E9%87%91%E9%B1%BC%E8%83%A1%E5%90%8C99%E5%8F%B7&lat=39.9136&lon=116.4143&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E5%8D%8A%E5%B2%9B%E9%85%92%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E9%87%91%E9%B1%BC%E8%83%A1%E5%90%8C99%E5%8F%B7&lat=39.9136&lon=116.4143&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('王府半岛酒店·东城区金鱼胡同99号')">复</button>
     </div>
   </div>
@@ -727,7 +753,7 @@
     <div class="sinfo"><div class="sname">Shuttle Bus up</div><div class="scn">慕田峪景区摆渡车·怀柔区</div></div>
     <div class="sright">
       <span class="stime">07:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E6%99%AF%E5%8C%BA%E6%91%86%E6%B8%A1%E8%BD%A6%C2%B7%E6%80%80%E6%9F%94%E5%8C%BA&lat=40.4285&lon=116.562&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E6%99%AF%E5%8C%BA%E6%91%86%E6%B8%A1%E8%BD%A6%C2%B7%E6%80%80%E6%9F%94%E5%8C%BA&lat=40.4285&lon=116.562&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('慕田峪景区摆渡车·怀柔区')">复</button>
     </div>
   </div>
@@ -739,7 +765,7 @@
     <div class="sinfo"><div class="sname">Chairlift up · Tower 14</div><div class="scn">慕田峪缆椅·怀柔区慕田峪长城</div></div>
     <div class="sright">
       <span class="stime">07:45</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E7%BC%86%E6%A4%85%C2%B7%E6%80%80%E6%9F%94%E5%8C%BA%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E&lat=40.4338&lon=116.571&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E7%BC%86%E6%A4%85%C2%B7%E6%80%80%E6%9F%94%E5%8C%BA%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E&lat=40.4338&lon=116.571&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('慕田峪缆椅·怀柔区慕田峪长城')">复</button>
     </div>
   </div>
@@ -751,7 +777,7 @@
     <div class="sinfo"><div class="sname">Walk: Tower 14 → Tower 6</div><div class="scn">慕田峪长城·14号楼至6号楼</div></div>
     <div class="sright">
       <span class="stime">08:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E%C2%B714%E5%8F%B7%E6%A5%BC%E8%87%B36%E5%8F%B7%E6%A5%BC&lat=40.4318&lon=116.5697&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E9%95%BF%E5%9F%8E%C2%B714%E5%8F%B7%E6%A5%BC%E8%87%B36%E5%8F%B7%E6%A5%BC&lat=40.4318&lon=116.5697&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('慕田峪长城·14号楼至6号楼')">复</button>
     </div>
   </div>
@@ -763,7 +789,7 @@
     <div class="sinfo"><div class="sname">Toboggan descent</div><div class="scn">慕田峪滑道·6号楼附近</div></div>
     <div class="sright">
       <span class="stime">09:45</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E6%BB%91%E9%81%93%C2%B76%E5%8F%B7%E6%A5%BC%E9%99%84%E8%BF%91&lat=40.4305&lon=116.5672&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E6%BB%91%E9%81%93%C2%B76%E5%8F%B7%E6%A5%BC%E9%99%84%E8%BF%91&lat=40.4305&lon=116.5672&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('慕田峪滑道·6号楼附近')">复</button>
     </div>
   </div>
@@ -775,7 +801,7 @@
     <div class="sinfo"><div class="sname">Shuttle back + Didi to 798</div><div class="scn">慕田峪景区·停车场</div></div>
     <div class="sright">
       <span class="stime">10:15</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E6%99%AF%E5%8C%BA%C2%B7%E5%81%9C%E8%BD%A6%E5%9C%BA&lat=40.4285&lon=116.562&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E6%99%AF%E5%8C%BA%C2%B7%E5%81%9C%E8%BD%A6%E5%9C%BA&lat=40.4285&lon=116.562&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('慕田峪景区·停车场')">复</button>
     </div>
   </div>
@@ -788,7 +814,7 @@
     <div class="sinfo"><div class="sname">Lunch · Village restaurants at wall base</div><div class="scn">慕田峪村餐厅·怀柔区</div></div>
     <div class="sright">
       <span class="stime">10:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E6%9D%91%E9%A4%90%E5%8E%85%C2%B7%E6%80%80%E6%9F%94%E5%8C%BA&lat=40.4285&lon=116.562&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%85%95%E7%94%B0%E5%B3%AA%E6%9D%91%E9%A4%90%E5%8E%85%C2%B7%E6%80%80%E6%9F%94%E5%8C%BA&lat=40.4285&lon=116.562&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('慕田峪村餐厅·怀柔区')">复</button>
     </div>
   </div>
@@ -801,7 +827,7 @@
     <div class="sinfo"><div class="sname">798 Art District</div><div class="scn">798艺术区·朝阳区酒仙桥路2号(主入口)</div></div>
     <div class="sright">
       <span class="stime">12:15</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=798%E8%89%BA%E6%9C%AF%E5%8C%BA%C2%B7%E6%9C%9D%E9%98%B3%E5%8C%BA%E9%85%92%E4%BB%99%E6%A1%A5%E8%B7%AF2%E5%8F%B7%28%E4%B8%BB%E5%85%A5%E5%8F%A3%29&lat=39.984&lon=116.498&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=798%E8%89%BA%E6%9C%AF%E5%8C%BA%C2%B7%E6%9C%9D%E9%98%B3%E5%8C%BA%E9%85%92%E4%BB%99%E6%A1%A5%E8%B7%AF2%E5%8F%B7%28%E4%B8%BB%E5%85%A5%E5%8F%A3%29&lat=39.984&lon=116.498&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('798艺术区·朝阳区酒仙桥路2号(主入口)')">复</button>
     </div>
   </div>
@@ -814,7 +840,7 @@
     <div class="sinfo"><div class="sname">Coffee · Metal Hands · 798 Branch</div><div class="scn">铁手咖啡·798艺术区店</div></div>
     <div class="sright">
       <span class="stime">13:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%93%81%E6%89%8B%E5%92%96%E5%95%A1%C2%B7798%E8%89%BA%E6%9C%AF%E5%8C%BA%E5%BA%97&lat=39.984&lon=116.498&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%93%81%E6%89%8B%E5%92%96%E5%95%A1%C2%B7798%E8%89%BA%E6%9C%AF%E5%8C%BA%E5%BA%97&lat=39.984&lon=116.498&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('铁手咖啡·798艺术区店')">复</button>
     </div>
   </div>
@@ -828,7 +854,7 @@
     <div class="sinfo"><div class="sname">Dinner · Siji Minfu · Dengshikou Branch</div><div class="scn">四季民福烤鸭店·东城区灯市口西街32号</div></div>
     <div class="sright">
       <span class="stime">19:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%9B%9B%E5%AD%A3%E6%B0%91%E7%A6%8F%E7%83%A4%E9%B8%AD%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E7%81%AF%E5%B8%82%E5%8F%A3%E8%A5%BF%E8%A1%9732%E5%8F%B7&lat=39.922&lon=116.4152&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%9B%9B%E5%AD%A3%E6%B0%91%E7%A6%8F%E7%83%A4%E9%B8%AD%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E7%81%AF%E5%B8%82%E5%8F%A3%E8%A5%BF%E8%A1%9732%E5%8F%B7&lat=39.922&lon=116.4152&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('四季民福烤鸭店·东城区灯市口西街32号')">复</button>
     </div>
   </div>
@@ -840,7 +866,7 @@
     <div class="sinfo"><div class="sname">Temple of Heaven · East Gate</div><div class="scn">天坛公园·东城区天坛东路甲1号(东门入)</div></div>
     <div class="sright">
       <span class="stime">09:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%A9%E5%9D%9B%E5%85%AC%E5%9B%AD%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E5%A4%A9%E5%9D%9B%E4%B8%9C%E8%B7%AF%E7%94%B21%E5%8F%B7%28%E4%B8%9C%E9%97%A8%E5%85%A5%29&lat=39.8822&lon=116.4066&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%A9%E5%9D%9B%E5%85%AC%E5%9B%AD%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E5%A4%A9%E5%9D%9B%E4%B8%9C%E8%B7%AF%E7%94%B21%E5%8F%B7%28%E4%B8%9C%E9%97%A8%E5%85%A5%29&lat=39.8822&lon=116.4066&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('天坛公园·东城区天坛东路甲1号(东门入)')">复</button>
     </div>
   </div>
@@ -853,7 +879,7 @@
     <div class="sinfo"><div class="sname">Lunch · Bianyifang · Chongwenmen</div><div class="scn">便宜坊烤鸭店·东城区崇文门外大街2号新世界百货</div></div>
     <div class="sright">
       <span class="stime">11:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E5%B4%87%E6%96%87%E9%97%A8%E5%A4%96%E5%A4%A7%E8%A1%972%E5%8F%B7%E6%96%B0%E4%B8%96%E7%95%8C%E7%99%BE%E8%B4%A7&lat=39.896&lon=116.418&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%BE%BF%E5%AE%9C%E5%9D%8A%E7%83%A4%E9%B8%AD%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E5%B4%87%E6%96%87%E9%97%A8%E5%A4%96%E5%A4%A7%E8%A1%972%E5%8F%B7%E6%96%B0%E4%B8%96%E7%95%8C%E7%99%BE%E8%B4%A7&lat=39.896&lon=116.418&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('便宜坊烤鸭店·东城区崇文门外大街2号新世界百货')">复</button>
     </div>
   </div>
@@ -865,7 +891,7 @@
     <div class="sinfo"><div class="sname">Summer Palace · East Palace Gate</div><div class="scn">颐和园·海淀区新建宫门路19号(东宫门入)</div></div>
     <div class="sright">
       <span class="stime">13:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E6%B5%B7%E6%B7%80%E5%8C%BA%E6%96%B0%E5%BB%BA%E5%AE%AB%E9%97%A8%E8%B7%AF19%E5%8F%B7%28%E4%B8%9C%E5%AE%AB%E9%97%A8%E5%85%A5%29&lat=40.0006&lon=116.2755&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E6%B5%B7%E6%B7%80%E5%8C%BA%E6%96%B0%E5%BB%BA%E5%AE%AB%E9%97%A8%E8%B7%AF19%E5%8F%B7%28%E4%B8%9C%E5%AE%AB%E9%97%A8%E5%85%A5%29&lat=40.0006&lon=116.2755&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('颐和园·海淀区新建宫门路19号(东宫门入)')">复</button>
     </div>
   </div>
@@ -878,7 +904,7 @@
     <div class="sinfo"><div class="sname">Shichahai / Drum Tower walk</div><div class="scn">什刹海·西城区烟袋斜街西口</div></div>
     <div class="sright">
       <span class="stime">15:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%BB%80%E5%88%B9%E6%B5%B7%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%E7%83%9F%E8%A2%8B%E6%96%9C%E8%A1%97%E8%A5%BF%E5%8F%A3&lat=39.937&lon=116.3895&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E4%BB%80%E5%88%B9%E6%B5%B7%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%E7%83%9F%E8%A2%8B%E6%96%9C%E8%A1%97%E8%A5%BF%E5%8F%A3&lat=39.937&lon=116.3895&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('什刹海·西城区烟袋斜街西口')">复</button>
     </div>
   </div>
@@ -891,7 +917,7 @@
     <div class="sinfo"><div class="sname">Coffee · Voyage Coffee</div><div class="scn">航行咖啡·西城区(Amap确认地址)</div></div>
     <div class="sright">
       <span class="stime">16:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%88%AA%E8%A1%8C%E5%92%96%E5%95%A1%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%28Amap%E7%A1%AE%E8%AE%A4%E5%9C%B0%E5%9D%80%29&lat=39.9372&lon=116.4027&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E8%88%AA%E8%A1%8C%E5%92%96%E5%95%A1%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%28Amap%E7%A1%AE%E8%AE%A4%E5%9C%B0%E5%9D%80%29&lat=39.9372&lon=116.4027&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('航行咖啡·西城区(Amap确认地址)')">复</button>
     </div>
   </div>
@@ -904,7 +930,7 @@
     <div class="sinfo"><div class="sname">Dinner · Nanmen Shuanrou · Qianhai Branch</div><div class="scn">南门涮肉·西城区前海南沿1号南官房胡同1号</div></div>
     <div class="sright">
       <span class="stime">19:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8D%97%E9%97%A8%E6%B6%AE%E8%82%89%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%E5%89%8D%E6%B5%B7%E5%8D%97%E6%B2%BF1%E5%8F%B7%E5%8D%97%E5%AE%98%E6%88%BF%E8%83%A1%E5%90%8C1%E5%8F%B7&lat=39.9397&lon=116.386&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8D%97%E9%97%A8%E6%B6%AE%E8%82%89%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%E5%89%8D%E6%B5%B7%E5%8D%97%E6%B2%BF1%E5%8F%B7%E5%8D%97%E5%AE%98%E6%88%BF%E8%83%A1%E5%90%8C1%E5%8F%B7&lat=39.9397&lon=116.386&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('南门涮肉·西城区前海南沿1号南官房胡同1号')">复</button>
     </div>
   </div>
@@ -916,7 +942,7 @@
     <div class="sinfo"><div class="sname">Breakfast · Huguosi Snacks</div><div class="scn">护国寺小吃·西城区护国寺街93号</div></div>
     <div class="sright">
       <span class="stime">08:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%8A%A4%E5%9B%BD%E5%AF%BA%E5%B0%8F%E5%90%83%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%E6%8A%A4%E5%9B%BD%E5%AF%BA%E8%A1%9793%E5%8F%B7&lat=39.9366&lon=116.384&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E6%8A%A4%E5%9B%BD%E5%AF%BA%E5%B0%8F%E5%90%83%C2%B7%E8%A5%BF%E5%9F%8E%E5%8C%BA%E6%8A%A4%E5%9B%BD%E5%AF%BA%E8%A1%9793%E5%8F%B7&lat=39.9366&lon=116.384&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('护国寺小吃·西城区护国寺街93号')">复</button>
     </div>
   </div>
@@ -929,7 +955,7 @@
     <div class="sinfo"><div class="sname">Foreign Languages Bookstore</div><div class="scn">外文书店·东城区王府井大街235号</div></div>
     <div class="sright">
       <span class="stime">09:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%96%E6%96%87%E4%B9%A6%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97235%E5%8F%B7&lat=39.9165&lon=116.412&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%A4%96%E6%96%87%E4%B9%A6%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97235%E5%8F%B7&lat=39.9165&lon=116.412&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('外文书店·东城区王府井大街235号')">复</button>
     </div>
   </div>
@@ -941,7 +967,7 @@
     <div class="sinfo"><div class="sname">Wuyutai · Matcha Ice Cream</div><div class="scn">吴裕泰·东城区王府井大街225号</div></div>
     <div class="sright">
       <span class="stime">10:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%90%B4%E8%A3%95%E6%B3%B0%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97225%E5%8F%B7&lat=39.916&lon=116.4118&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%90%B4%E8%A3%95%E6%B3%B0%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E7%8E%8B%E5%BA%9C%E4%BA%95%E5%A4%A7%E8%A1%97225%E5%8F%B7&lat=39.916&lon=116.4118&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('吴裕泰·东城区王府井大街225号')">复</button>
     </div>
   </div>
@@ -955,7 +981,7 @@
     <div class="sinfo"><div class="sname">Lunch · Light noodles near hotel</div><div class="scn">王府井附近</div></div>
     <div class="sright">
       <span class="stime">11:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E4%BA%95%E9%99%84%E8%BF%91&lat=39.9136&lon=116.4143&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E4%BA%95%E9%99%84%E8%BF%91&lat=39.9136&lon=116.4143&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('王府井附近')">复</button>
     </div>
   </div>
@@ -967,7 +993,7 @@
     <div class="sinfo"><div class="sname">Collect bags + checkout</div><div class="scn">王府半岛酒店·东城区金鱼胡同99号</div></div>
     <div class="sright">
       <span class="stime">12:00</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E5%8D%8A%E5%B2%9B%E9%85%92%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E9%87%91%E9%B1%BC%E8%83%A1%E5%90%8C99%E5%8F%B7&lat=39.9136&lon=116.4143&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E7%8E%8B%E5%BA%9C%E5%8D%8A%E5%B2%9B%E9%85%92%E5%BA%97%C2%B7%E4%B8%9C%E5%9F%8E%E5%8C%BA%E9%87%91%E9%B1%BC%E8%83%A1%E5%90%8C99%E5%8F%B7&lat=39.9136&lon=116.4143&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('王府半岛酒店·东城区金鱼胡同99号')">复</button>
     </div>
   </div>
@@ -979,7 +1005,7 @@
     <div class="sinfo"><div class="sname">Didi → PEK Terminal 3</div><div class="scn">北京首都国际机场T3·顺义区</div></div>
     <div class="sright">
       <span class="stime">12:30</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8C%97%E4%BA%AC%E9%A6%96%E9%83%BD%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BAT3%C2%B7%E9%A1%BA%E4%B9%89%E5%8C%BA&lat=40.0799&lon=116.6031&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8C%97%E4%BA%AC%E9%A6%96%E9%83%BD%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BAT3%C2%B7%E9%A1%BA%E4%B9%89%E5%8C%BA&lat=40.0799&lon=116.6031&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('北京首都国际机场T3·顺义区')">复</button>
     </div>
   </div>
@@ -991,7 +1017,7 @@
     <div class="sinfo"><div class="sname">SQ807 Departs</div><div class="scn">北京首都国际机场·T3航站楼</div></div>
     <div class="sright">
       <span class="stime">16:35</span>
-      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8C%97%E4%BA%AC%E9%A6%96%E9%83%BD%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%C2%B7T3%E8%88%AA%E7%AB%99%E6%A5%BC&lat=40.0799&lon=116.6031&dev=0&style=2" class="mapbtn" onclick="event.stopPropagation()">📍</a>
+      <a href="androidamap://viewMap?sourceApplication=chinatrip&poiname=%E5%8C%97%E4%BA%AC%E9%A6%96%E9%83%BD%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%C2%B7T3%E8%88%AA%E7%AB%99%E6%A5%BC&lat=40.0799&lon=116.6031&dev=0&style=2" class="mapbtn" aria-label="Open location in maps" onclick="event.stopPropagation()">📍</a>
       <button class="copybtn" onclick="event.stopPropagation();copyCN('北京首都国际机场·T3航站楼')">复</button>
     </div>
   </div>
@@ -1019,10 +1045,10 @@ function load(){try{TXN=JSON.parse(localStorage.getItem('ct')||'[]');}catch(e){T
 function logSpend(card,cat,fid,iid,nid){const amt=parseFloat(document.getElementById(iid).value);const note=document.getElementById(nid).value.trim()||cat;if(!amt||amt<=0)return;TXN.push({id:Date.now(),card,cat,amt,note,ts:new Date().toISOString()});save();document.getElementById(iid).value='';document.getElementById(nid).value='';document.getElementById(fid).classList.remove('on');renderLists();updateCaps();}
 function delTxn(id,fs){TXN=TXN.filter(t=>t.id!==id);save();renderLists();updateCaps();if(fs)renderSum();}
 const TMAP={'rca':['citi',['Restaurant']],'rcq':['citi',['Restaurant QR']],'rl':['ladys',['Restaurant']],'rp':['prvi',['Restaurant']],'sca':['citi',['Shopping']],'sp':['ppv',['Shopping']],'sp2':['prvi',['Shopping']],'qc':['citi',['QR Payment']],'qu':['unionpay',['QR Payment']],'hp':['prvi',['Hotel']],'od':['dbs',['Online']]};
-function renderLists(){Object.entries(TMAP).forEach(([id,[card,cats]])=>{const el=document.getElementById('tl-'+id);if(!el)return;const rel=TXN.filter(t=>t.card===card&&cats.includes(t.cat));el.innerHTML=rel.map(t=>`<div class="txn-item"><span>${t.note} · <strong>S$${t.amt.toFixed(2)}</strong></span><button class="txn-del" onclick="delTxn(${t.id})">×</button></div>`).join('');});}
+function renderLists(){Object.entries(TMAP).forEach(([id,[card,cats]])=>{const el=document.getElementById('tl-'+id);if(!el)return;const rel=TXN.filter(t=>t.card===card&&cats.includes(t.cat));el.innerHTML=rel.map(t=>`<div class="txn-item"><span>${t.note} · <strong>S$${t.amt.toFixed(2)}</strong></span><button type="button" class="txn-del" aria-label="Delete transaction" onclick="delTxn(${t.id})">×</button></div>`).join('');});}
 function citiData(){const now=new Date(),cur=now<RESET?'aug':'sep';const aug=TXN.filter(t=>t.card==='citi'&&new Date(t.ts)<RESET).reduce((a,t)=>a+t.amt,0);const sep=TXN.filter(t=>t.card==='citi'&&new Date(t.ts)>=RESET).reduce((a,t)=>a+t.amt,0);return{aug,sep,cur,now:cur==='aug'?aug:sep};}
 function updateCaps(){const cc=citiData(),cs=cc.now,cpct=Math.min(100,cs/1000*100),cr=Math.max(0,1000-cs);document.getElementById('cc-s').textContent='S$'+cs.toFixed(0);document.getElementById('cc-b').style.width=cpct+'%';document.getElementById('cc-r').textContent='S$'+cr.toFixed(0)+' remaining in '+cc.cur+' cycle';document.getElementById('cc-s').className='cap-amt '+(cpct>=100?'c-red':cpct>=80?'c-org':'c-grn');const badge=document.getElementById('citi-cyc');badge.textContent=cc.cur==='aug'?'Aug cycle':'Sep cycle';badge.className='cap-badge '+(cc.cur==='aug'?'aug':'sep');const sp={ladys:0,ppv:0,dbs:0};TXN.forEach(t=>{if(sp[t.card]!==undefined)sp[t.card]+=t.amt;});[['ladys','cl',1000],['ppv','cp',600],['dbs','cd',1000]].forEach(([c,id,cap])=>{const s=sp[c],p=Math.min(100,s/cap*100),r=Math.max(0,cap-s);document.getElementById(id+'-s').textContent='S$'+s.toFixed(0);document.getElementById(id+'-b').style.width=p+'%';document.getElementById(id+'-r').textContent='S$'+r.toFixed(0)+' remaining';document.getElementById(id+'-s').className='cap-amt'+(p>=100?' c-red':p>=80?' c-org':'');});}
-function renderSum(){let tot=0,mi=0,fx=0;TXN.forEach(t=>{tot+=t.amt;mi+=t.amt*(MPD[t.card]||0);fx+=t.amt*(FX[t.card]||0);});document.getElementById('sv-tot').textContent='S$'+tot.toFixed(2);document.getElementById('sv-mi').textContent=Math.round(mi).toLocaleString();document.getElementById('sv-val').textContent='S$'+(mi*MV).toFixed(2);document.getElementById('sv-fx').textContent='S$'+fx.toFixed(2);const list=document.getElementById('all-txn');if(!TXN.length){list.innerHTML='<div class="txn-row"><span class="txn-meta">No transactions yet</span><span></span></div>';return;}list.innerHTML=[...TXN].reverse().map(t=>`<div class="txn-row"><div><div class="txn-name">${t.note}</div><div class="txn-meta">${t.card.toUpperCase()} · ${t.cat} · ${new Date(t.ts).toLocaleDateString('en-SG',{day:'numeric',month:'short'})}</div></div><div style="display:flex;align-items:center;gap:10px"><span style="font-weight:600;font-size:15px">S$${t.amt.toFixed(2)}</span><button class="txn-del" onclick="delTxn(${t.id},true);renderSum()">×</button></div></div>`).join('');}
+function renderSum(){let tot=0,mi=0,fx=0;TXN.forEach(t=>{tot+=t.amt;mi+=t.amt*(MPD[t.card]||0);fx+=t.amt*(FX[t.card]||0);});document.getElementById('sv-tot').textContent='S$'+tot.toFixed(2);document.getElementById('sv-mi').textContent=Math.round(mi).toLocaleString();document.getElementById('sv-val').textContent='S$'+(mi*MV).toFixed(2);document.getElementById('sv-fx').textContent='S$'+fx.toFixed(2);const list=document.getElementById('all-txn');if(!TXN.length){list.innerHTML='<div class="txn-row"><span class="txn-meta">No transactions yet</span><span></span></div>';return;}list.innerHTML=[...TXN].reverse().map(t=>`<div class="txn-row"><div><div class="txn-name">${t.note}</div><div class="txn-meta">${t.card.toUpperCase()} · ${t.cat} · ${new Date(t.ts).toLocaleDateString('en-SG',{day:'numeric',month:'short'})}</div></div><div style="display:flex;align-items:center;gap:10px"><span style="font-weight:600;font-size:15px">S$${t.amt.toFixed(2)}</span><button type="button" class="txn-del" aria-label="Delete transaction" onclick="delTxn(${t.id},true);renderSum()">×</button></div></div>`).join('');}
 function resetAll(){if(confirm('Reset all spend data?')){TXN=[];save();load();renderSum();}}
 window.onload=()=>{load();autoDay();};</script>
 </body>
