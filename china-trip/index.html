@@ -12,12 +12,12 @@
 <body>
 <div id="app">
   <nav class="nav">
-    <button class="nb active" id="nb-s" onclick="goTab('s')"><span class="nb-ico">💳</span><span class="nb-lbl">Strategy</span></button>
+    <button class="nb active" id="nb-i" onclick="goTab('i')"><span class="nb-ico">🗺</span><span class="nb-lbl">Itinerary</span></button>
+    <button class="nb" id="nb-s" onclick="goTab('s')"><span class="nb-ico">💳</span><span class="nb-lbl">Strategy</span></button>
     <button class="nb" id="nb-m" onclick="goTab('m')"><span class="nb-ico">📊</span><span class="nb-lbl">Summary</span></button>
-    <button class="nb" id="nb-i" onclick="goTab('i')"><span class="nb-ico">🗺</span><span class="nb-lbl">Itinerary</span></button>
   </nav>
   <div class="content">
-    <div class="tab on" id="t-s">
+    <div class="tab" id="t-s">
       <div class="tbar"><div class="tbar-title">💳 Card Strategy</div><div class="tbar-sub">13–23 Sep 2026 · SH + BJ</div></div>
       <div class="alert"><strong>🔁 Citi resets 16 Sep</strong> — S$1,000 Aug cycle (Days 1–3) + fresh S$1,000 Sep cycle (Days 4–11). Total S$2,000.</div>
       <div class="cap-grid">
@@ -73,7 +73,7 @@
       <button class="reset-btn" onclick="resetAll()">🗑 Reset all data</button>
       <div class="pb"></div>
     </div>
-    <div class="tab" id="t-i">
+    <div class="tab on" id="t-i">
       <div class="itin-top">
         <div class="itin-hdr"><div class="itin-title">🗺 Itinerary</div><div class="itin-sub">📍 Amap &nbsp;·&nbsp; 复 Copy CN</div></div>
         <div class="day-tabs"><button class="day-tab" onclick="switchDay(0)" id="dt0">D1<br><span class="dtag">13 Sep</span></button><button class="day-tab" onclick="switchDay(1)" id="dt1">D2<br><span class="dtag">14 Sep</span></button><button class="day-tab" onclick="switchDay(2)" id="dt2">D3<br><span class="dtag">15 Sep</span></button><button class="day-tab" onclick="switchDay(3)" id="dt3">D4<br><span class="dtag">16 Sep</span></button><button class="day-tab" onclick="switchDay(4)" id="dt4">D5<br><span class="dtag">17 Sep</span></button><button class="day-tab" onclick="switchDay(5)" id="dt5">D6<br><span class="dtag">18 Sep</span></button><button class="day-tab" onclick="switchDay(6)" id="dt6">D7<br><span class="dtag">19 Sep</span></button><button class="day-tab" onclick="switchDay(7)" id="dt7">D8<br><span class="dtag">20 Sep</span></button><button class="day-tab" onclick="switchDay(8)" id="dt8">D9<br><span class="dtag">21 Sep</span></button><button class="day-tab" onclick="switchDay(9)" id="dt9">D10<br><span class="dtag">22 Sep</span></button><button class="day-tab" onclick="switchDay(10)" id="dt10">D11<br><span class="dtag">23 Sep</span></button></div>
