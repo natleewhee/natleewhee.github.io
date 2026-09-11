@@ -562,7 +562,7 @@
   </div>
   <div class="sdesc"><span class="book-badge">📋 Hotel reservation</span> <span class="price-badge">~S$50–80/pax</span><br>Final Shanghai night. Best hotel of the trip.<br><span class="card-tip">💳 PRVI Miles</span></div>
 </div></div><div class="day-panel" id="dp6"><div class="map-toggle" onclick="toggleMap('dp6')">🗺️ View walking route map</div><div class="walkmap" id="map-dp6"></div><div class="slot-label">🚄 Shanghai → Beijing · G16</div>
-<div class="travel">🚗 Didi from PuLi ~20 min</div><div class="stop" onclick="toggleStop(this)">
+<div class="travel">🚗 Didi from PuLi ~20 min</div><div class="stop" data-nomap onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🚄</span>
     <div class="sinfo"><div class="sname">Depart Shanghai Station · G16</div><div class="scn">上海站·闸北区秣陵路303号</div></div>
@@ -575,7 +575,7 @@
   <div class="sdesc">G16 departs 11:53. ⚠️ Shanghai Station 上海站 — NOT Hongqiao. Arrive 30 min early. Passport needed.</div>
 </div>
 <div class="slot-label">🍽 Lunch on train · ~S$6–10</div>
-<div class="stop" onclick="toggleStop(this)">
+<div class="stop" data-nomap onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🍱</span>
     <div class="sinfo"><div class="sname">Lunch · Station bento</div><div class="scn">上海站便利店</div></div>
@@ -988,7 +988,7 @@
   </div>
   <div class="sdesc">⚠️ Checkout by 12:00. Concierge holds bags.</div>
 </div>
-<div class="stop" onclick="toggleStop(this)">
+<div class="stop" data-nomap onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">🚗</span>
     <div class="sinfo"><div class="sname">Didi → PEK Terminal 3</div><div class="scn">北京首都国际机场T3·顺义区</div></div>
@@ -1000,7 +1000,7 @@
   </div>
   <div class="sdesc">⚠️ Leave by 12:30. Check-in closes ~13:35. ~40 min + buffer.<br><span class="card-tip">💳 PRVI Miles</span></div>
 </div>
-<div class="stop" onclick="toggleStop(this)">
+<div class="stop" data-nomap onclick="toggleStop(this)">
   <div class="stop-row">
     <span class="sico">✈️</span>
     <div class="sinfo"><div class="sname">SQ807 Departs</div><div class="scn">北京首都国际机场·T3航站楼</div></div>
@@ -1023,7 +1023,7 @@ function toggleMap(id){const el=document.getElementById('map-'+id);el.classList.
 function buildWalkMap(id){
   const panel=document.getElementById(id);
   const pts=[];
-  panel.querySelectorAll('.stop').forEach(s=>{
+  panel.querySelectorAll('.stop:not([data-nomap])').forEach(s=>{
     const a=s.querySelector('.mapbtn');
     if(!a)return;
     const href=a.getAttribute('href');
